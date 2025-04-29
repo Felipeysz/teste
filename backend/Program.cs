@@ -16,8 +16,8 @@ builder.Services.AddBancoAzure(builder.Configuration)
     .AddCustomRouting();
 
 // DI serviços e repositórios (sem interfaces)
-builder.Services.AddScoped<UserService>(); // Usando a classe diretamente
-builder.Services.AddScoped<UserBusinessRules>(); // Usando a classe diretamente
+builder.Services.AddScoped<IUserService, UserService>().AddScoped<UserBusinessRules>();
+
 
 var app = builder.Build();
 

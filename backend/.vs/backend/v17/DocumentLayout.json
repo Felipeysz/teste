@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Felip\\OneDrive\\\u00C1rea de Trabalho\\StrixClubTest\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\strixclubtest\\backend\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\\u00C1rea de Trabalho\\StrixClubTest\\backend\\Controller\\UserController.cs",
+              "RelativeDocumentMoniker": "Controller\\UserController.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\\u00C1rea de Trabalho\\StrixClubTest\\backend\\Controller\\UserController.cs",
+              "RelativeToolTip": "Controller\\UserController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:43:51.373Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

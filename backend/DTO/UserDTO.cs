@@ -1,21 +1,28 @@
 namespace backend.DTO
 {
-    public class RegisterDTO
+    public record UserResponse(string Message);
+
+    public record RegisterDTO(
+        string Name,
+        string Email,
+        string Password,
+        string PermissionAccount = "user"
+    )
     {
-        public required string Name { get; set; }
-        public required string Email { get; set; }
-        public required string Password { get; set; }
-        public required string PermissionAccount { get; set; } = "user";
+        public RegisterDTO() : this(default!, default!, default!, "user") { }
     }
 
-    public class LoginDTO
+    public record LoginDTO(
+        string Email,
+        string Password
+    )
     {
-        public required string Email { get; set; }
-        public required string Password { get; set; }
+        public LoginDTO() : this(default!, default!) { }
     }
 
-    public class LogoutDTO
-    {
-        public required string Token { get; set; }
-    }
+    public record UserDTO(
+        string Name,
+        string Email,
+        string PermissionAccount
+    );
 }
